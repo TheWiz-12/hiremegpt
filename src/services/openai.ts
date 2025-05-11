@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 const createOpenAIClient = () => {
   try {
     return new OpenAI({
-      //apiKey: "***REMOVED***proj-b12lkXsRWoe8Zyzbpor4aGf_syvSGpzVL036vGbvoXjRKoFY7vebDxwzUOwix_8V_5mXJ-GRMYT3BlbkFJCIYSNawzE30E_gUUl4n9GQQEohEvIQyg4ViQoNYKMmTDVq2HJDoyJ119gv_NyvKh_JnDRvYdwA",
       apiKey: import.meta.env.apiKey , 
       dangerouslyAllowBrowser: true
     });
